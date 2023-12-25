@@ -37,7 +37,9 @@ export default function MyConfig() {
         headers: { Authorization: "Bearer " + val.session.token.access },
       }).then((response) => {
         console.log(response);
-        setData(response.data.data.data);
+        if(response.data.data){
+          setData(response.data.data.data);
+        }
       });
     }
   }, []);
@@ -54,7 +56,7 @@ export default function MyConfig() {
           </div>
           <div className="Main_Header">My Configuration</div>
           <div className="configs">
-            {Data != undefined &&
+            {Data != undefined && Data!=null && Data.length > 0 &&
               Data.length > 0 &&
               Data.map((ele) => {
                 return (

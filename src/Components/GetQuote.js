@@ -4,6 +4,7 @@ import Prebuild from "../Assets/get.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Gaming, url } from "../Data/NavbarData";
+import circ from '../Assets/circ.png';
 import ec from "../Assets/ec.png";
 // import ArrowLeftIcon from '@mui/icons-material/ArrowLeft';
 // import ArrowRightIcon from '@mui/icons-material/ArrowRight';
@@ -26,6 +27,8 @@ import { setProductType } from "../Redux/Slice";
 import axios from "axios";
 import CloseFullscreenIcon from '@mui/icons-material/CloseFullscreen';
 import ZoomOutMapIcon from '@mui/icons-material/ZoomOutMap';
+import DownArrow from "../Assets/Group_781.png";
+
 
 export default function GetQuote() {
   const [activeState, setActiveState] = useState(0);
@@ -1035,6 +1038,7 @@ export default function GetQuote() {
         </div>
         {Product_Type.includes("Gaming") && (
           <div className="willstream">
+            <img src={DownArrow} className="downarrow"></img>
             <div className="willstream_inner">
               <img src={Ellipse} width={"100%"} height={"100%"}></img>
               <img src={Ellipse508} width={"100%"} height={"100%"}></img>
@@ -1349,6 +1353,7 @@ export default function GetQuote() {
             </div>
             <button onClick={e=>{handleSubmit(e)}}>Submit</button>
           </div>
+          <img src={circ} className="uparrow"></img>
         </div>
       </div>
     </div>

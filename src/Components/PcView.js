@@ -63,8 +63,7 @@ export default function PcView() {
       .then((response) => {
         window.location.href = "/cart";
       })
-      .catch((error) => {
-      });
+      .catch((error) => {});
   };
   return (
     <div className="View_Wrapper">
@@ -108,8 +107,22 @@ export default function PcView() {
                           {/* </div> */}
                         </div>
                       </div>
-                      <div className="col-xl-4 col-md-6 three">
+                      <div className="col-xl-5 col-md-6 three">
                         <p className="Header">{Data.Product_usage_type}</p>
+                        <div className="purpose" style={{backgroundColor:"rgba(0,0,0,0)", padding:"3px"}}>
+                          <p>Domain</p>
+                          <p className="inner_domain">
+                            <img
+                              className="intel"
+                              src={
+                                Prebuild
+                              }
+                              width={40}
+                              height={40}
+                            ></img>
+                            <p className="content">{Data.Domain}</p>
+                          </p>
+                        </div>
                         <p className="Budjet">
                           {Number(Data.Total).toLocaleString("en-IN", {
                             style: "currency",
@@ -155,8 +168,26 @@ export default function PcView() {
                           )}
                         </div>
                       </div>
-                      <div className="col-xl-4 none">
+                      <div className="col-xl-3 none">
                         <div className="row">
+                          <div className="col-lg-4 col-md-6">
+                            <div className="purpose">
+                              <p>Processor</p>
+                              <p className="inner_domain">
+                                <img
+                                  className="intel"
+                                  src={
+                                    Data.CpuName.toLowerCase().includes("intel")
+                                      ? intel
+                                      : amd
+                                  }
+                                  width={40}
+                                  height={40}
+                                ></img>
+                                <p className="content">{Data.CpuName}</p>
+                              </p>
+                            </div>
+                          </div>
                           <div className="col-lg-4 col-md-6">
                             <div className="purpose">
                               <p>Purpose</p>
@@ -167,22 +198,16 @@ export default function PcView() {
                           </div>
                           <div className="col-lg-4 col-md-6">
                             <div className="purpose">
-                              <p>Domain</p>
-                              <p className="content">{Data.Domain}</p>
-                            </div>
-                          </div>
-                          <div className="col-lg-4 col-md-6">
-                            <div className="purpose">
-                              <p>Processor</p>
-                              <p className="inner_domain">
+                              <p className="inner_domain1">
                                 <img
-                                  src={
-                                    Data.CpuName.toLowerCase().includes("intel")
-                                      ? intel
-                                      : amd
-                                  }
+                                  src={GPU}
+                                  width={"100%"}
+                                  height={"100%"}
                                 ></img>
-                                <p className="content">{Data.CpuName}</p>
+                                <div>
+                                  <p>GPU</p>
+                                  <p className="content">{Data.Gpu_Name}</p>
+                                </div>
                               </p>
                             </div>
                           </div>
@@ -201,8 +226,22 @@ export default function PcView() {
                           {/* </div> */}
                         </div>
                       </div>
-                      <div className="col-xl-4 col-md-6 two">
+                      <div className="col-xl-5 col-md-6 two">
                         <p className="Header">{Data.Product_usage_type}</p>
+                        <div className="purpose" style={{backgroundColor:"rgba(0,0,0,0)", padding:"3px"}}>
+                          <p>Domain</p>
+                          <p className="inner_domain">
+                            <img
+                              className="intel"
+                              src={
+                                Prebuild
+                              }
+                              width={40}
+                              height={40}
+                            ></img>
+                            <p className="content">{Data.Domain}</p>
+                          </p>
+                        </div>
                         <p className="Budjet">
                           {Number(Data.Total).toLocaleString("en-IN", {
                             style: "currency",

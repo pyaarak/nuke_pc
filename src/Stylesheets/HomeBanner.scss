@@ -5,6 +5,8 @@
   padding-bottom: 100px;
   position: relative;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
   
   .HomeBanner_Inner_Wrapper {
     .HomeBanner_Video_Container {
@@ -223,27 +225,40 @@
         .Ellipseleft {
           position: absolute;
           left: 0;
-          top: 70px;
-          width: 100%;
+          // top: 70px;
+          width: auto;
           z-index: 9;
-          height: 700px;
+          // height: 700px;
+          height: auto;
         }
         .ellipse {
           position: absolute;
-          left: 0;
-          bottom: 0px;
-          width: 100%;
+          right: 0;
+          // bottom: 0px;
+          width: auto;
           z-index: 9;
-          height: 700px;
-          transform: rotate(180deg);
+          // height: 700px;
+          // border: 1px solid #fff;
+          // transform: rotate(180deg);
+        }
+        .ellipse1 {
+          position: absolute;
+          right: 0;
+          // bottom: 0px;
+          width: auto;
+          z-index: 9;
+          // height: 700px;
+          border: 1px solid #fff;
+          // transform: rotate(180deg);
         }
         .Ellipseright {
           position: absolute;
-          left: 0;
+          right: 0;
           top: 70px;
-          width: 100%;
-          height: 700px;
-          z-index: 9;
+          width: auto;
+          height: auto;
+          // height: 700px;
+          z-index: 89;
         }
         img {
           width: 100%;
@@ -259,6 +274,10 @@
       // height: 500px;
       position: relative;
       height: auto;
+      background: rgba(0,0,0,0.6);
+      @media screen and (max-width:700px){
+        padding-bottom: 200px;
+      }
 
       @media screen and (min-width:700px){
         display: none;
@@ -401,9 +420,10 @@
         .ellipse {
           position: absolute;
           left: 0;
-          bottom: 0px;
+          // bottom: 0px;
           width: 100%;
           z-index: 9;
+          display: none;
           transform: rotate(180deg);
         }
         .Ellipseright {

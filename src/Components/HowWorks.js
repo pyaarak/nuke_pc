@@ -5,6 +5,9 @@ import h2 from "../Assets/h2.png";
 import h3 from "../Assets/h3.png";
 import Elip from "../Assets/HwEllipse.png";
 import Elip1 from "../Assets/HwEllipse.png";
+import Ellipse510 from '../Assets/Ellipse510.png';
+import Ellipse508 from '../Assets/Ellipse508.png';
+import Ellipse from '../Assets/Ellipse590.png';
 
 export default function HowWorks(props) {
   const [State, setState] = useState(1);
@@ -24,6 +27,9 @@ export default function HowWorks(props) {
   return (
     <div className="HowWorks_Wrapper">
       <div className="HowWorks_Inner_Wrapper">
+        <img src={Ellipse510} className="o1"></img>
+        <img src={Ellipse508} className="o2"></img>
+        <img src={Ellipse} className="o3"></img>
         <div className="Header">
           <p className="Main_Header" style={{ margin: "0" }}>
             How it works?

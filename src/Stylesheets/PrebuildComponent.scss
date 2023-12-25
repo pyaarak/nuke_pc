@@ -3,6 +3,29 @@
     padding: 100px;
     margin-top: 100px;
     font-family: 'Poppins', sans-serif;
+
+
+    .o1{
+        position: absolute;
+        // width: 100%;
+        z-index: 90;
+        right: 0;
+        margin-top: 40pc;
+      }
+      .o2{
+        position: absolute;
+        // position: absolute;
+        // width: 100%;
+        z-index: 9;
+        left: 0;
+        margin-top: -14pc;
+      }
+      .o3{
+        position: absolute;
+        z-index: 6;
+        left: 0;
+        margin-top: 60pc;
+      }
     
 
     @media screen and (max-width:750px){
@@ -167,8 +190,40 @@
         .Card_footer{
             color: #fff;
             text-align: left;
+            .last_sec{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 10px;
+
+                span{
+                    img{
+                        width: 35px;
+                        height: auto;
+                        margin-right: 15px;
+
+                        &.a2{
+                            width: 27px;
+                        }
+                    }
+
+                    &.arrow{
+                        border: 1px solid #E4A025;
+                        padding: 3px;
+                        width: 70px;
+                        border-radius: 50px;
+                        display: flex;
+                        justify-content: center;
+                        svg{
+                            width: 100px;
+                            color: #E4A025;
+                        }
+                    }
+                }
+            }
             p{
                 margin: 0;
+                font-weight: 500;
             }
             .color{
                 opacity: 50%;
@@ -237,7 +292,7 @@
                 align-items: center;
                 margin-top: 20px;
                 background-color: black;
-                box-shadow: 35px 0px 130px 0px #E4A025;
+                box-shadow: 0px 0px 30px -19px #E4A025;
 
                 @media screen and (max-width:800px){
                     width: 200px;

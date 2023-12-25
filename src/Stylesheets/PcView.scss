@@ -73,6 +73,10 @@
           border-radius: 20px;
           .inner_domain {
             // padding: 30px;
+            // .intel{
+            //   width: 60px;
+            //   height: 60px;
+            // }
           }
 
           @media screen and (max-width: 992px) {
@@ -273,7 +277,7 @@
             border-radius: 100px;
             color: #fff;
             font-size: 16px;
-            width: 200px;
+            width: 100%;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -281,6 +285,10 @@
             font-weight: 600;
             margin-right: 20px;
             background-color: #e4a025;
+
+            @media screen and (min-width:1200px){
+              width: 270px;
+            }
 
             @media screen and (max-width: 600px) {
               width: 100%;
@@ -345,6 +353,31 @@
           align-items: flex-start;
           padding: 20px;
 
+          .purpose{
+            .inner_domain{
+              .intel{
+                width: 70px;
+                height: 70px;
+              }
+            }
+
+            .inner_domain1{
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+
+              p{
+                margin: 0;
+              }
+
+              img{
+                margin-right: 8px;
+                width: 40px;
+                height: 40px;
+              }
+            }
+          }
+
           @media screen and (max-width: 600px) {
             padding: 10px;
           }
@@ -365,6 +398,9 @@
           }
 
           .none {
+            @media screen and (max-width:1200px){
+              margin-top: 30px;
+            }
             .row {
               @media screen and (min-width: 1200px) {
                 display: block;
@@ -389,9 +425,12 @@
             }
 
             .img {
-              width: fit-content;
+              width: 100%;
               // height: 390px;
-              padding: 50px;
+              padding: 70px;
+              display: flex;
+              justify-content: center;
+              // height: 100%;
 
               @media screen and (max-width: 500px) {
                 width: 100%;
@@ -399,8 +438,8 @@
               }
             }
             img {
-              width: fit-content;
-              height: 100%;
+              width: 100%;
+              height: 70%;
 
               @media screen and (max-width: 500px) {
                 width: 100%;
@@ -430,6 +469,7 @@
 
               &.content {
                 color: black;
+                font-size: 15px;
               }
             }
 
@@ -440,14 +480,17 @@
               display: flex;
               justify-content: flex-start;
               align-items: center;
+              width: fit-content;
               img {
                 width: 50px;
                 margin-right: 10px;
+                // padding: 30px;
               }
               p {
                 margin: 0;
                 color: black;
                 margin-right: 20px;
+                font-size: 15px;
               }
             }
           }

@@ -2,6 +2,7 @@
   background-color: black;
   width: 100%;
   font-family: "Poppins", sans-serif;
+  // overflow: hidden;
   
   .HowWorks_Inner_Wrapper {
     padding-top: 60px;
@@ -9,6 +10,29 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    .o1{
+      position: absolute;
+      // width: 100%;
+      z-index: 90;
+      right: 0;
+      margin-top: 40pc;
+    }
+    .o2{
+      position: absolute;
+      // position: absolute;
+      // width: 100%;
+      z-index: 9;
+      left: 0;
+      margin-top: -14pc;
+    }
+    .o3{
+      position: absolute;
+      z-index: 6;
+      left: 0;
+      margin-top: 60pc;
+      width: 100%;
+    }
     .Header {
       .Main_Header {
         color: #fff;

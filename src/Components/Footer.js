@@ -1,6 +1,6 @@
 import React from "react";
 import "../Stylesheets/Footer.scss";
-import Logo from "../Assets/image_7.png";
+import Logo from "../Assets/NUKE PC logo.png";
 import icon from '../Assets/icon.png';
 import icon1 from '../Assets/icon2.png';
 import fb1 from '../Assets/fb.png';
