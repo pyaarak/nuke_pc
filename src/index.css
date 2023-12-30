@@ -19,20 +19,20 @@ body::-webkit-scrollbar{
 }
 
 .Main_Header{
-  font-size: 64px;
+  font-size: 50px;
   /* font-weight: 700; */
   font-family: 'Bebas Neue', sans-serif;
 }
 
 @media screen and (max-width:800px){
       .Main_Header{
-        font-size: 50px;
+        font-size: 40px;
       }             
 }
 
 @media screen and (max-width:400px){
   .Main_Header{
-    font-size: 40px;
+    font-size: 30px;
   }             
 }
 

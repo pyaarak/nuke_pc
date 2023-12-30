@@ -349,9 +349,9 @@ export default function GetQuote() {
             </div>
             {Product_Type.includes("Gaming") ? (
               <div className="row">
-                <div className="col-xl-9 col-lg-12 checklist">
+                <div className="col-xl-8 col-lg-10 checklist">
                   <div className="row">
-                    <div className="col-lg-4 col-md-6">
+                    <div className="col-lg-4 col-md-4 col-xs-6">
                       <div
                         className={`OverAll-Card ${
                           activeState == 1 && "active"
@@ -424,7 +424,7 @@ export default function GetQuote() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-4 col-md-6">
+                    <div className="col-lg-4 col-md-4 col-xs-6">
                       <div
                         className={`OverAll-Card ${
                           activeState == 2 && "active"
@@ -499,7 +499,7 @@ export default function GetQuote() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-4 col-md-6">
+                    <div className="col-lg-4 col-md-4 col-xs-6">
                       <div
                         className={`OverAll-Card ${
                           activeState == 3 && "active"
@@ -576,9 +576,9 @@ export default function GetQuote() {
               </div>
             ) : Product_Type.includes("Content") ? (
               <div className="row">
-                <div className="col-xl-9 col-lg-12 checklist">
+                <div className="col-xl-8 col-lg-10 checklist">
                   <div className="row">
-                    <div className="col-lg-4 col-md-6">
+                    <div className="col-lg-4 col-md-4 col-xs-6">
                       <div
                         className={`OverAll-Card ${
                           activeState == 4 && "active"
@@ -651,7 +651,7 @@ export default function GetQuote() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-4 col-md-6">
+                    <div className="col-lg-4 col-md-4 col-xs-6">
                       <div
                         className={`OverAll-Card ${
                           activeState == 5 && "active"
@@ -724,7 +724,7 @@ export default function GetQuote() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-4 col-md-6">
+                    <div className="col-lg-4 col-md-4 col-xs-6">
                       <div
                         className={`OverAll-Card ${
                           activeState == 6 && "active"
@@ -798,7 +798,7 @@ export default function GetQuote() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-4 col-md-6">
+                    <div className="col-lg-4 col-md-4 col-xs-6">
                       <div
                         className={`OverAll-Card ${
                           activeState == 7 && "active"
@@ -875,9 +875,9 @@ export default function GetQuote() {
               </div>
             ) : Product_Type.includes("Engineering") ? (
               <div className="row">
-                <div className="col-xl-9 col-lg-12 checklist">
+                <div className="col-xl-8 col-lg-10 checklist">
                   <div className="row">
-                    <div className="col-lg-4 col-md-6">
+                    <div className="col-lg-4 col-md-4 col-xs-6">
                       <div
                         className={`OverAll-Card ${
                           activeState == 8 && "active"
@@ -955,9 +955,9 @@ export default function GetQuote() {
               </div>
             ) : (
               <div className="row">
-                <div className="col-xl-9 col-lg-12 checklist">
+                <div className="col-xl-8 col-lg-10 checklist">
                   <div className="row">
-                    <div className="col-lg-4 col-md-6">
+                    <div className="col-lg-4 col-md-4 col-xs-6">
                       <div
                         className={`OverAll-Card ${
                           activeState == 9 && "active"

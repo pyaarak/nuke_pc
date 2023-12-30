@@ -1,11 +1,12 @@
 .HowWorks_Wrapper {
   background-color: black;
   width: 100%;
+  margin-top: -10px;
   font-family: "Poppins", sans-serif;
   // overflow: hidden;
   
   .HowWorks_Inner_Wrapper {
-    padding-top: 60px;
+    padding-top:20px;
     display: flex;
     justify-content: center;
     align-items: center;

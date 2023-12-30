@@ -1,6 +1,8 @@
 .PrebuildComponent_Wrapper{
     background-color: black;
     padding: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
     margin-top: 100px;
     font-family: 'Poppins', sans-serif;
 
@@ -179,7 +181,19 @@
         }
     }
     .Pc_table{
-        margin-top: 40px;
+        margin-top: -10px;
+        padding-left: 70px;
+        padding-right: 70px;
+
+        @media screen and (max-width:1300px){
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        @media screen and (max-width:1000px){
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
     }
     .OverAll-Card{
         padding: 20px;
@@ -198,24 +212,24 @@
 
                 span{
                     img{
-                        width: 35px;
+                        width: 27px;
                         height: auto;
                         margin-right: 15px;
 
                         &.a2{
-                            width: 27px;
+                            width: 25px;
                         }
                     }
 
                     &.arrow{
                         border: 1px solid #E4A025;
-                        padding: 3px;
-                        width: 70px;
+                        padding: 2px;
+                        width: 60px;
                         border-radius: 50px;
                         display: flex;
                         justify-content: center;
                         svg{
-                            width: 100px;
+                            width: 50px;
                             color: #E4A025;
                         }
                     }
@@ -231,7 +245,7 @@
         }
         .card_body{
             // height: 270px;
-            padding: 15px;
+            padding: 25px;
         }
         .Card_Header{
             text-align: left;
@@ -260,18 +274,32 @@
                 margin: 0;
                 margin-top: 80px;
                 font-weight: 400;
+                // padding-left: 100px;
+                // padding-right: 100px;
 
                 span{
                     color: #E4A025;
                 }
             }
             .Sub-content{
-               font-size: 16px;
+               font-size: 15px;
                text-align: center;
             //    padding: 100%;
                padding-top: 0;
                opacity: 50%;
                color: #fff;
+               padding-left: 100px;
+               padding-right: 100px;
+
+               @media screen and (max-width:1200px){
+                padding-left: 50px;
+                padding-right: 50px;
+               }
+
+               @media screen and (max-width:800px){
+                padding-left: 0;
+                padding-right: 0;
+               }
 
                @media screen and (max-width:800px){
                 // padding-left: 10px;
@@ -285,18 +313,18 @@
                 border: 1px solid #E4A025;
                 border-radius: 100px;
                 color: #fff;
-                font-size: 20px;
-                width: 300px;
+                font-size: 16px;
+                width: 250px;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                margin-top: 20px;
+                margin-top: 10px;
                 background-color: black;
                 box-shadow: 0px 0px 30px -19px #E4A025;
 
                 @media screen and (max-width:800px){
                     width: 200px;
-                    font-size: 16px;
+                    font-size: 14px;
                 }
 
                 // img{
@@ -306,7 +334,7 @@
                 // }
 
                 p{
-                    margin: 15px;
+                    margin: 12px;
                     margin-left: 20px;
                     font-weight: 400;
                 }
@@ -315,8 +343,8 @@
                     background-color: #E4A025;
                     margin: 0;
                     display: flex;
-                    width: 40px;
-                    height: 40px;
+                    width: 30px;
+                    height: 30px;
                     border-radius: 50%;
                     justify-content: center;
                     align-items: center;

@@ -1,8 +1,8 @@
 .Navbar_Wrapper {
   width: 100%;
-  height: 70px;
+  height: 55px;
   background-color: rgba(0, 0, 0, 0.7);
-  position: fixed;
+  position: absolute;
   z-index: 1000;
   font-family: 'Poppins', sans-serif;
 
@@ -79,8 +79,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 100%;
     align-items: center;
-    padding: 0 60px 0 60px;
+    padding: 0 100px 0 100px;
 
     .style_menu{
         svg{
@@ -118,20 +119,22 @@
                color: #fff;
                font-weight: 300;
                cursor: pointer;
+               font-size: 15px;
             }
         }
     }
 
     .Button_log{
-        padding: 8px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
         border-radius: 5px;
         background-color: #E4A025;
         border: 0px;
         outline: none !important;
         font-weight: 500;
         margin-left: 20px;
+        font-size: 15px;
     }
 
     .Open_Menu{

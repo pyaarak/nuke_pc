@@ -5,14 +5,14 @@
   margin: 0;
   padding: 0 !important;
   .myconfig_inner_wrapper {
-    padding-top: 70px;
+    padding-top: 55px;
     .Inner_config_Content {
       background-color: #ffff;
-      padding: 30px 70px 70px 70px;
+      padding: 20px 70px 70px 70px;
       text-align: left;
 
       @media screen and (max-width:900px){
-        padding: 30px 10px 70px 10px;
+        padding: 20px 10px 70px 10px;
       }
 
       .BaseUrl {
@@ -34,22 +34,22 @@
         }
       }
       .end_page {
-        margin-top: 90px;
+        margin-top: 50px;
         color: #eee;
         text-align: center;
         font-family: "Bebas Neue", sans-serif;
-        font-size: 84.207px;
+        font-size: 40px;
         font-style: normal;
         font-weight: 400;
-        line-height: 70.172px;
+        // line-height: 70.172px;
       }
       .configs {
-        margin-top: 20px;
+        margin-top: 10px;
         .Config_Details {
-          padding: 20px;
+          padding: 10px;
           background-color: #f4f3f0;
-          border-radius: 30px;
-          margin-bottom: 30px;
+          border-radius: 20px;
+          margin-bottom: 20px;
 
           @media screen and (max-width:500px){
             padding: 10px;
@@ -82,7 +82,7 @@
             align-items: center;
             flex-direction: column;
             border-top: 2px solid #e0e0e0;
-            margin-top: 20px;
+            margin-top: 10px;
             display: none;
 
             .Devider1{
@@ -110,9 +110,9 @@
                 // z-index: 0;
                 // position: absolute;
                 bottom: 0;
-                margin-top: 200px;
+                margin-top: 170px;
                 // width: ;
-                height: 10px;
+                height: 8px;
                 border-radius: 20px;
 
                 .progress-bar{
@@ -127,6 +127,7 @@
                 width: 100%;
                 margin-top: 10px;
                 color: #939393;
+                font-size: 15px;
 
                 p{
                   @media screen and (max-width:550px){
@@ -178,7 +179,7 @@
             }
 
             .Divider_Content1 {
-              margin-top: 50px;
+              margin-top: 15px;
               display: flex;
               justify-content: space-around;
               align-items: flex-start;
@@ -246,6 +247,7 @@
                   width: 100%;
                   margin-top: 10px;
                   color: #939393;
+                  font-size: 15px;
 
                  p{
                   @media screen and (max-width:550px){
@@ -269,8 +271,8 @@
               // width: 600px;
               width: 75%;
               height: 250px;
-              padding: 20px;
-              border-radius: 20px;
+              padding: 16px;
+              border-radius: 10px;
               font-size: 20px;
               font-weight: 600;
               color: #939393;
@@ -284,13 +286,14 @@
 
           .Divider_Content {
             background-color: #ececec;
-            margin-top: 50px;
-            border-radius: 20px;
-            padding: 30px;
+            margin-top: 15px;
+            border-radius: 10px;
+            padding: 20px;
             .cont {
-              font-size: 23px;
+              font-size: 18px;
               font-weight: 600;
               color: #757575;
+              margin: 0;
             }
           }
 
@@ -570,28 +573,32 @@
           .status {
             // width: 20%;
             // height: 150px;
-            padding: 15px;
+            padding: 6px;
             background-color: #fff;
-            border-radius: 20px;
+            border-radius: 10px;
+            width: fit-content;
             text-align: left;
+            float: right;
+            margin-right: 20px;
 
             @media screen and (max-width:1250px){
               display: block;
             }
             p {
               margin: 0;
+              width: fit-content;
             }
             span {
               text-align: center;
               &:nth-child(1) {
                 color: #b9b9b9;
-                font-size: 20px;
+                font-size: 16px;
                 font-weight: 600;
                 margin-right: 10px;
               }
               &:nth-child(2) {
                 color: #eda728;
-                font-size: 20px;
+                font-size: 16px;
                 font-weight: 500;
               }
             }
@@ -601,40 +608,48 @@
           }
           .purpose {
             background-color: #ececec;
-            padding: 20px;
-            border-radius: 20px;
+            padding: 10px;
+            border-radius: 10px;
             // width: 25%;
-            min-height: 150px;
-            margin-bottom: 20px;
+            min-height: 117px;
+            margin-bottom: px;
+
+            @media screen and (max-width:1300px){
+              min-height: 150px;
+            }
 
             
             p {
               font-weight: 600;
               color: #757575;
-              font-size: 18px;
+              font-size: 16px;
               margin: 0;
-              margin-bottom: 10px;
+              margin-bottom: 6px;
+              
 
               &.content {
                 color: black;
+                font-size: 15px;
               }
             }
 
             .inner_domain {
               background-color: #1212120a;
               padding: 10px;
-              border-radius: 20px;
+              border-radius: 10px;
               display: flex;
               justify-content: flex-start;
               align-items: center;
               img {
-                width: 50px;
+                width: 40px;
                 margin-right: 10px;
               }
               p {
                 margin: 0;
+                font-size: 14px;
                 color: black;
                 margin-right: 20px;
+                display: contents;
               }
             }
           }

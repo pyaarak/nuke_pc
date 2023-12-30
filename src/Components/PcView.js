@@ -96,7 +96,7 @@ export default function PcView() {
                 <>
                   <div className="Config_Details_inner">
                     <div className="row">
-                      <div className="col-xl-4 col-md-6 three">
+                      <div className="col-xl-3 col-md-4 col-sm-6 three">
                         <div className="purpose img">
                           <img
                             src={Prebuild}
@@ -107,7 +107,7 @@ export default function PcView() {
                           {/* </div> */}
                         </div>
                       </div>
-                      <div className="col-xl-5 col-md-6 three">
+                      <div className="col-xl-5 col-md-7 three">
                         <p className="Header">{Data.Product_usage_type}</p>
                         <div className="purpose" style={{backgroundColor:"rgba(0,0,0,0)", padding:"3px"}}>
                           <p>Domain</p>
@@ -213,7 +213,7 @@ export default function PcView() {
                           </div>
                         </div>
                       </div>
-                      <div className="col-xl-4 col-md-6 two">
+                      <div className="col-xl-3 col-md-4 two">
                         <div className="purpose img">
                           {/* <p>Domain</p> */}
                           {/* <div className="inner_domain"> */}

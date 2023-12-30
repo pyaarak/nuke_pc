@@ -5,13 +5,13 @@
   margin: 0;
   padding: 0 !important;
   .getquote_inner_Wrapper {
-    padding-top: 70px;
+    padding-top: 55px;
     .config_Summary {
       position: absolute;
-      top: 80px;
-      right: 70px;
+      top: 65px;
+      right: 85px;
       // height: 99%;
-      width: 320px;
+      width: 300px;
       z-index: 666;
 
       @media screen and (max-width:1300px){
@@ -50,7 +50,7 @@
         backdrop-filter: blur(127.5px);
 
         .header {
-          font-size: 24px;
+          font-size: 21px;
           font-weight: 600;
           // padding: 30px;
           // margin-right: 90px;
@@ -138,7 +138,7 @@
             // opacity: 54%;
             border-radius: 15px;
             padding: 15px;
-            font-size: 20px;
+            font-size: 16px;
             font-weight: 700;
             backdrop-filter: blur(18.487552642822266px);
 
@@ -147,7 +147,7 @@
             }
 
             .state {
-              font-size: 16px;
+              font-size: 14px;
               margin: 0;
               margin-left: 2px;
               color: #a8a8a8;
@@ -173,7 +173,7 @@
             }
 
             .inner_domain {
-              padding: 20px;
+              padding: 14px;
               border-radius: 15px;
               display: flex;
               border: 1px solid #e4a025;
@@ -182,7 +182,7 @@
 
               img {
                 width: fit-content;
-                height: 80px;
+                height: 60px;
                 // opacity: 1;
                 margin-right: 20px;
               }
@@ -201,7 +201,7 @@
       text-align: left;
 
       @media screen and (max-width:1300px){
-        padding: 30px 20px 70px 10px;
+        padding: 20px 20px 70px 10px;
       }
       .BaseUrl {
         span {
@@ -222,13 +222,13 @@
         }
       }
       .Main_Header {
-        font-size: 70px;
+        font-size: 60px;
         padding: 0;
         margin: 0;
         margin-left: -3px;
 
         @media screen and (max-width:700px){
-          font-size: 50px;
+          font-size: 40px;
         }
 
         @media screen and (max-width:500px){
@@ -237,7 +237,7 @@
       }
       .Sub_header {
         color: #939393;
-        font-size: 22px;
+        font-size: 18px;
         font-weight: 600;
         margin-top: -15px;
 
@@ -251,14 +251,14 @@
       }
       .checklist {
         margin-top: 20px;
-        margin-bottom: 100px;
+        // margin-bottom: 100px;
       }
       .OverAll-Card {
         // fill: rgba(18, 18, 18, 0.04);
         background-color: rgba(18, 18, 18, 0.04);
         padding: 0px;
         border-radius: 30px;
-        min-height: 450px;
+        min-height: 400px;
         margin-bottom: 40px;
         backdrop-filter: blur(20.78860855102539px);
         cursor: pointer;
@@ -269,7 +269,7 @@
         // backdrop-filter: blur(20.78860855102539px);
         // background: url(<path-to-image>), lightgray 50% / cover no-repeat;
         .card_body {
-          padding: 80px;
+          padding: 70px;
           padding-top: 0px;
           padding-bottom: 0px;
         }
@@ -329,7 +329,7 @@
 
           .content {
             font-weight: 600;
-            font-size: 18px;
+            font-size: 16px;
             text-align: center;
             padding-top: 0px;
             padding: 0 25px 0 25px;
@@ -387,18 +387,20 @@
         position: absolute;
         z-index: 7;
         left: 20%;
-        margin-top: -100px;
+        margin-top: -70px;
+        width: 200px;
+        height: 200px;
 
         @media screen and (max-width:1200px){
-          width: 250px;
-          height: 250px;
-          margin-top: -100px;
+          width: 180px;
+          height: 180px;
+          margin-top: -70px;
         }
 
         @media screen and (max-width:800px){
-          width: 220px;
-          height: 220px;
-          margin-top: -100px;
+          width: 170px;
+          height: 170px;
+          margin-top: -70px;
         }
 
         @media screen and (max-width:500px){
@@ -410,17 +412,17 @@
       .willstream_inner {
         background-color: black;
         transform: rotate(-5deg) skew(-5deg);
-        padding: 200px 200px 200px 50px;
+        padding: 150px 200px 160px 50px;
         // margin-bottom: 100px;
         text-align: left;
         position: relative;
 
         @media screen and (max-width:1200px){
-           padding: 200px 50px 200px 50px; 
+           padding: 150px 50px 100px 50px; 
         }
 
         @media screen and (max-width:800px){
-          padding: 150px 30px 150px 30px; 
+          padding: 100px 30px 100px 30px; 
         }
 
         @media screen and (max-width:500px){
@@ -454,14 +456,14 @@
         .main_font {
           color: #c7c7c7;
           font-family: "Bebas Neue";
-          font-size: 60px;
+          font-size: 50px;
           font-style: normal;
           font-weight: 400;
           line-height: 70.172px; /* 83.333% */
 
           @media screen and (max-width:1200px){
             // padding: 100px 50px 100px 50px; 
-            font-size: 50px;
+            font-size: 40px;
          }
  
          @media screen and (max-width:800px){
@@ -476,7 +478,7 @@
         }
 
         .sub_font {
-          font-size: 30px;
+          font-size: 25px;
           font-family: "Poppins", sans-serif;
           font-weight: 700;
           margin-top: 50px;
@@ -535,9 +537,9 @@
       padding-top: 100px;
       .header {
         font-weight: 600;
-        font-size: 30px;
+        font-size: 25px;
         @media screen and (max-width:700px){
-          font-size: 23px;
+          font-size: 20px;
         }
         @media screen and (max-width:700px){
           font-size: 20px;
@@ -548,9 +550,10 @@
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
-        gap: 30px;
+        gap: 20px;
         transform: rotate(-90deg);
-        height: 664px;
+        height: 530px;
+        margin-top: 40px;
 
         @media screen and (max-width:900px){
           justify-content: center;
@@ -558,7 +561,7 @@
         }
 
         @media screen and (max-width:800px){
-          height: 600px;
+          height: 530px;
           gap: 80px;
           margin-bottom: 40px;
         }
@@ -582,7 +585,7 @@
           img {
             transform: rotate(90deg);
             width: 50px;
-            height: 50px;
+            height: 40px;
             margin-right: 15px;
 
             @media screen and (max-width:430px){
@@ -631,7 +634,7 @@
       .slider {
         -webkit-appearance: none;
         // width: 100px;
-        height: 13px;
+        height: 12px;
         // transform: rotate(90deg);
         margin-left: 0px;
         background: #4f4f4f;
@@ -660,8 +663,8 @@
           }
 
           &::-moz-range-thumb {
-            width: 28px;
-            height: 28px;
+            width: 25px;
+            height: 25px;
             border-radius: 50%;
             background: green;
             border: 3px solid #fff;
@@ -819,6 +822,8 @@
         position: absolute;
         bottom: -100px;
         right: 43%;
+        width: 170px;
+        height: 170px;
 
         @media screen and (max-width:992px){
           width: 170px;
@@ -859,11 +864,11 @@
       }
 
       .Text_filed{
-        margin-top: 70px;
+        margin-top: 20px;
         p{
             color: #939393;
             font-weight: 600;
-            font-size: 27px;
+            font-size: 23px;
         }
 
         textarea{
@@ -873,7 +878,7 @@
             width: 700px;
             height: 300px;
             border-radius: 10px;
-            font-size: 18px;
+            font-size: 16px;
             outline: none !important;
 
             @media screen and (max-width:750px){
@@ -883,13 +888,13 @@
       }
 
       .Main_Header {
-        font-size: 70px;
+        font-size: 55px;
         padding: 0;
         margin: 0;
         margin-left: -3px;
 
         @media screen and (max-width:700px){
-          font-size: 50px;
+          font-size: 40px;
         }
 
         @media screen and (max-width:500px){
@@ -898,16 +903,16 @@
       }
       .Sub_header {
         color: #939393;
-        font-size: 22px;
+        font-size: 16px;
         font-weight: 600;
         margin-top: -15px;
 
         @media screen and (max-width:700px){
-          font-size: 20px;
+          font-size: 16px;
         }
 
         @media screen and (max-width:500px){
-          font-size: 18px;
+          font-size: 14px;
         }
       }
       .content{
@@ -975,7 +980,7 @@
         p {
           margin: 0;
           position: absolute;
-          margin-left: 20px;
+          margin-left: 16px;
           font-size: 23px;
           font-weight: 600;
           color: #616161;
@@ -983,7 +988,7 @@
         }
         span {
           color: #939393;
-          font-size: 20px;
+          font-size: 16px;
           margin-left: 10px;
         }
         input {

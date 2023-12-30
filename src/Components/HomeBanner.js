@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../Stylesheets/HomeBanner.scss";
 import Video from "../Assets/video.mp4";
-import animategif from "../Assets/Gif.gif";
+import animategif from "../Assets/Gif1.gif";
 import Ellipse510 from "../Assets/Ellipse510.png";
 import Ellipse508 from "../Assets/Ellipse508.png";
 import Ellipse from "../Assets/Ellipse590.png";
@@ -9,10 +9,11 @@ import Ellipse4 from "../Assets/Ellipse590.png";
 import MainFont from "../Assets/Group_758.png";
 import MainFont1 from "../Assets/Group_758_min.png";
 import gif1 from "../Assets/back1.gif";
+import cure21 from "../Assets/curevfit.png";
 
 export default function HomeBanner(props) {
   const [ViewContent, setViewContent] = useState(1);
-  const [videoEnd, setVideoEnd] = useState(false);
+  const [videoEnd, setVideoEnd] = useState(true);
   const [animateend, setanimateEnd] = useState(false);
   const [contentview, setcontentView] = useState(0);
   const [Viewmore, setViewMore] = useState(0);
@@ -38,24 +39,25 @@ export default function HomeBanner(props) {
 
   return (
     <div className="HomeBanner_Wrapper">
+      <img src={cure21} className="curev"></img>
       <div className="HomeBanner_Inner_Wrapper">
         <div className="HomeBanner_Video_Container">
           {
-            <video
-              className={`Banner_0 ${videoEnd ? "animate" : ""}`}
-              src={Video}
-              style={animateend ? { display: "none" } : {}}
-              controls={false}
-              autoPlay={true}
-              muted
-              playsInline
-              width={"100%"}
-              onEnded={(e) => myCallback(e)}
-              onTimeUpdate={(e) => func(e)}
-              onAnimationEnd={(e) => {
-                setanimateEnd(true);
-              }}
-            ></video>
+            // <video
+            //   className={`Banner_0 ${videoEnd ? "animate" : ""}`}
+            //   src={Video}
+            //   style={animateend ? { display: "none" } : {}}
+            //   controls={false}
+            //   autoPlay={true}
+            //   muted
+            //   playsInline
+            //   width={"100%"}
+            //   onEnded={(e) => myCallback(e)}
+            //   onTimeUpdate={(e) => func(e)}
+            //   onAnimationEnd={(e) => {
+            //     setanimateEnd(true);
+            //   }}
+            // ></video>
           }
         </div>
         <div className="Banner_2">
