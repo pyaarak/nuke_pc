@@ -168,7 +168,7 @@ export default function PcView() {
                           )}
                         </div>
                       </div>
-                      <div className="col-xl-3 none">
+                      <div className="col-xl-4 none">
                         <div className="row">
                           <div className="col-lg-4 col-md-6">
                             <div className="purpose">
